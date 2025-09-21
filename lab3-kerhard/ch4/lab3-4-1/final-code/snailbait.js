@@ -2589,7 +2589,7 @@ SnailBait.prototype = {
          this.revealToast('paused');
       }
       else {
-         this.lastAnimationFrameTime += (now - this.pauseStartTime);
+         // this.lastAnimationFrameTime += (now - this.pauseStartTime);
       }
 
       if (this.musicOn) {

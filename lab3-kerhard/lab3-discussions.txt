@@ -1,0 +1,5 @@
+1. I noticed a significant change when I commented out that line of code. It 
+could really affect the gameplay for the player because it does not start where
+it left off when the game has been paused. On most occasions, when testing, I
+unpaused the game and lost a life due to the time elapsed when the game was
+paused.
