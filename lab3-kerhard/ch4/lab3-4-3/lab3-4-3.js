@@ -371,11 +371,12 @@ SnailBait.prototype = {
    // ------------------------- INITIALIZATION ----------------------------
 
    initializeImages: function () {
-      this.background.src = 'images/background.png';
-      this.runnerImage.src = 'images/runner.png';
+      let self = this;
+      self.background.src = '../images/background.png';
+      self.runnerImage.src = '../images/runner.png';
 
-      this.background.onload = function (e) {
-         snailBait.startGame();
+      self.background.onload = function (e) {
+         self.startGame();
       };
    },
 

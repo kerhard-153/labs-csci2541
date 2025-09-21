@@ -11,3 +11,9 @@ method in case the true meaning of "this" in JavaScript was not comprehending.
 When I inspected the page, it was throwing errors for 'canvas', 'windowHasFocus',
 and 'toastElement', saying 'Cannot set properties of undefined (setting/reading 
 <element name>)'.
+
+3. I think using the 'self' method is something that could be helpful when 
+confusion with the 'this' method occurs. It also resembles the 'self' used in
+python classes, which I am very familiar with. If I start to get confused when
+using 'this' in methods where it may changed based on what needs to be referenced, 
+it would be a good thing to fall back on.
