@@ -30,3 +30,8 @@ than before. I still didn't see the full loop, but I saw enough to make sure it
 worked. I am glad I got to try out animation in this software because I learned 
 that I actually like it better than the one I planned to use for our group 
 project.
+
+3. When testing this out, I found that it did not work like it did before. Most 
+of the main elements are there, but the instructions located in the chrome did 
+not load in, as well as the loading screen. This taught me the importance of 
+changing the display with JavaScript instead of relying on CSS.
