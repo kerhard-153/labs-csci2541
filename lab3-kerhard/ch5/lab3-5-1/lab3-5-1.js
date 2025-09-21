@@ -456,9 +456,9 @@ SnailBait.prototype = {
    },
 
    initializeImages: function () {
-      this.background.src = 'images/background.png';
-      this.runnerImage.src = 'images/runner.png';
-      this.runnerAnimatedGIFElement.src = 'images/snail.gif';
+      this.background.src = '../images/background.png';
+      this.runnerImage.src = '../images/runner.png';
+      this.runnerAnimatedGIFElement.src = '../images/frog_jump.gif';
 
       this.background.onload = function (e) {
          snailBait.backgroundLoaded();

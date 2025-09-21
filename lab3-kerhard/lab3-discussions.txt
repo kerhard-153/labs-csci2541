@@ -17,3 +17,10 @@ confusion with the 'this' method occurs. It also resembles the 'self' used in
 python classes, which I am very familiar with. If I start to get confused when
 using 'this' in methods where it may changed based on what needs to be referenced, 
 it would be a good thing to fall back on.
+
+Chapter 5
+
+1. I used a software called aseprite to create the frog gif. It is not free, but 
+I have had it for a while so I used it because I am very comfortable with it. I
+didn't have to do much to change the GIF, just replace the snail gif with the 
+jumping frog that I made.
