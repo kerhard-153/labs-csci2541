@@ -3,3 +3,11 @@ could really affect the gameplay for the player because it does not start where
 it left off when the game has been paused. On most occasions, when testing, I
 unpaused the game and lost a life due to the time elapsed when the game was
 paused.
+
+2. When I changed "this" to "snailBait" everywhere, the images did not load on 
+the page. The only thing I could see was a blue border and the 0 representing
+the player score. In the book, David Geary said that this was considered a safe
+method in case the true meaning of "this" in JavaScript was not comprehending. 
+When I inspected the page, it was throwing errors for 'canvas', 'windowHasFocus',
+and 'toastElement', saying 'Cannot set properties of undefined (setting/reading 
+<element name>)'.
