@@ -1,0 +1,38 @@
+Lab 1-1
+
+    I found that scaling the image was a little tricky, only because the size
+    of the image was different from the original image. What I did definitely 
+    stretched the image a bit, but I didn't want to have to create a new css
+    file for lab 1. This is definitely something to keep in mind for later in
+    the semester, when we get to create our own game.
+
+Lab 1-2
+
+    Instead of changing the variables, I just created new variables. Another
+    method I could have used was similar to the logic to draw the platforms, 
+    adding a data parameter and passed in the variables from the platform data
+    array. I didn't want to change the original code too much, because the 
+    runner will always need to start on the first platform anyway.
+
+Lab 1-3
+
+    This exercise made me remember that web elements are drawn from the top
+    left part of the screen, not from the origin. Working with 3D elements 
+    definitely was the culprit of forgetting that.
+
+Lab 1-4
+
+    After switching the order of the runner and background, the runner was no
+    longer visible. This demonstrated how layers work, which I have recently
+    learned about from working with drawing software. The background was drawn
+    over the runner since it was called after the draw runner function, 
+    making the game impossible to play.
+
+Lab 1-5
+
+    The canvas definitely did not look the same after the width and height 
+    values were specified in the css file. The author mentioned that when 
+    you size the canvas with css, it only sets the size of the canvas, leaving
+    the drawing surface at its default height and width, 300 X 150 pixels. 
+    When set on the HTML element itself, it sets both the size and the size of 
+    the drawing surface, so there is no mismatch between the two.

@@ -1,0 +1,37 @@
+Observations
+
+    Lab 2-3-1
+
+        After adding the shadows to the draw platform function, I did not see
+        much of a change in the frame rate, however, it did not go above 60 fps.
+        I did see a change in the background when the shadows were added, there
+        was a very visible line where the background was spliced together. 
+        
+    Lab 2-3-2
+
+        This question was a great example for showing the importance of the 
+        context.save() and context.restore() methods. Not only did it fix the 
+        shadow attached to the character, but fixed the issue with the visible
+        line showing where the background images met. At first, I added the 
+        the context.restore too early, and it made all of the platforms black. 
+        This mistake was a good learning experience as well, because now I
+        understand where it needs to go.
+
+    Lab 2-3-3
+
+        I used the same image from Lab 1 on this question, but when I first
+        tested it, the image continued seamlessly. I cropped the image to see
+        exactly where the separation on the background would happen. When I 
+        tested it, it was very obvious that the image was not the same on both
+        sides.
+
+    Lab 2-3-4
+
+        I was expecting a little more of a change in frame rate by playing one 
+        YouTube video, but it only went down to 56 fps. To stress the game a 
+        little more, I played another one at the same time and it got down to 48 
+        fps. This shows how important it is to pause the game temporarily when a 
+        user's computer is running slow. It makes the overall experience when 
+        playing the game much cleaner and more enjoyable. 
+
+
